@@ -39,23 +39,23 @@ public class Main {
             } else {
                 System.out.println("Возраст должен быть 2 года или больше.");
             }
-            int ageFromLessThan5   =  4;
-            if (ageFromLessThan5<5 ) {
-                System.out.println("Если возраст  ребенка равен " + ageFromLessThan5  +   ", то  он не может кататься на аттракционе.");
+            int ageFromLessThan5 = 4;
+            if (ageFromLessThan5 < 5) {
+                System.out.println("Если возраст  ребенка равен " + ageFromLessThan5 + ", то  он не может кататься на аттракционе.");
             } else {
                 System.out.println("Если больше 5 лет, то может каталься на аттракционев в присутвствии взрослого");
             }
 
             int ageFrom5To14 = 6;
             if (ageFrom5To14 > 5 && ageFrom5To14 < 14) {
-                System.out.println("Если возраст  ребенка равен " + ageFrom5To14  +   ", то  он   может кататься на аттракционе в сопровождении  взрослого.");
+                System.out.println("Если возраст  ребенка равен " + ageFrom5To14 + ", то  он   может кататься на аттракционе в сопровождении  взрослого.");
             } else {
                 System.out.println("Если больше 14 лет, то может кататься без  сопровождения взрослого");
             }
 
             int ageFromMoreThan14 = 14;
             if (ageFromMoreThan14 >= 14) {
-                System.out.println("Если возраст  ребенка равен " + ageFromMoreThan14  +   ", то  он   может кататься на " +
+                System.out.println("Если возраст  ребенка равен " + ageFromMoreThan14 + ", то  он   может кататься на " +
                         "аттракционе  без  сопровождения взрослого.");
             } else {
                 System.out.println("Если меньше 14 лет, то может кататься, но в  сопровождении взрослого ");
@@ -69,27 +69,23 @@ public class Main {
             } else {
                 System.out.println("Если мест " + place + ", то вагон уже полностью забит ");
             }
-            int One = 10;
-            int Two = 20;
-            int Three = 15;
+            int one = 10;
+            int two = 20;
+            int three = 15;
             int max;
-            if (One >= Two && One >= Three) {
-                max = One;
-            } else if (Two >= One && Two >= Three) {
-                max = Two;
+            if (one >= two && one >= three) {
+                max = one;
+            } else if (two >= one && two >= three) {
+                max = two;
             } else {
-                max = Three;
+                max = three;
             }
             System.out.println("Наибольшее число: " + max);
-            {
-                {
-                    {
-                        {
+        }
+    }
+}
 
-                        }
-                    }}}
-                }}
-            }
+
 
 
 
